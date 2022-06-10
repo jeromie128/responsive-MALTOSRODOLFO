@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKins (responsive)</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="assets/logo/PinClipart.com_books-images-clip-art_5288506.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="sideLogo">
+            <h1>BOOK<a href="" class="logotext">INS</a></h1>
+        </div>
+        <div class="nav-btns" id="btns">
+            <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Account</li></a>
+            </ul>
+        </div>
+        <div class="nav-icon">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+    </nav>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("btns");
+          if (x.className === "nav-btns") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav-btns";
+          }
+        }
+        </script>
+    <div class="top">
+        <h2>register to continue</h2>
+        <input type="email" placeholder="Enter your email address">
+        <button>GET STARTED</button>
+    </div>
+    <div class="middle">
+        <div class="info">
+            <table class="main-table">
+                <tr>
+                    <th>
+                      <img src="assets/png/select.png" alt="">
+                    </th>
+                    <th>
+                        <h3>Select</h3>
+                            <table class="main-table-child">
+                                <th>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ad tempore veritatis</p>
+                                </th>
+                            </table>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="assets/png/phonebook.png" alt="">
+                    </th>
+                    <th>
+                        <h3>Update</h3>
+                            <table class="main-table-child">
+                                <th>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ad tempore veritatis, esse cum quo. Lorem ipsum </p>
+                                </th>
+                            </table>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <img src="assets/png/enjoying.png" alt="">
+                    </th>
+                    <th>
+                        <h3>Enjoy</h3>
+                            <table class="main-table-child">
+                                <th>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ad tempore</p>
+                                </th>
+                            </table>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div class="yt-vid">
+            <iframe width="450" height="300" src="https://www.youtube.com/embed/PSWfevfpa3I?list=RDPSWfevfpa3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="subscription">
+            <div class="prices">
+                <h4>Basic</h4>
+                <p>$50</p>
+                <p class="details">Lorem ipsum dolor <br> sit amet, consectetur <br> adipisicing.</p>
+                <button>SELECT</button>
+            </div>
+            <div class="prices">
+                <h4>Standard</h4>
+                <p>$100</p>
+                <p class="details">Lorem ipsum dolor <br> sit amet, consectetur <br> adipisicing.</p>
+                <button>SELECT</button>
+            </div>
+            <div class="prices">
+                <h4>Premium</h4>
+                <p>$250</p>
+                <p class="details">Lorem ipsum dolor <br> sit amet, consectetur <br> adipisicing.</p>
+                <button>SELECT</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href=""><img src="assets/png/site/184-1841066_logo-instagram-png-splash-clipart.png" alt=""><img src="assets/png/site/Facebook-Download-PNG.png" alt=""><img src="assets//png/site/Tweeter-Logo-Png-Transparent-Background-Twitter-Logo-.png" alt="">
+        </a>
+        <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Content</a></li>
+        </ul>
+        <p>Copyright 2016, Original WebDev</p>
+    </footer>
+</body>
+</html>
